@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Title>Contact form</title>
+  <style>
+    body{
+  background-image: url(bckgrnd4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+    }
+  </style>
+<style>
+ul{
+   list-style-type:none;
+   margin: 16px 8px;
+   padding: 0;
+   overflow:hidden;
+   background-color:#0000FF ;
+   border: 1px solid black;
+   border-radius: 10px;
+  }
+li{
+   float: left;
+   border-right:2px solid #202020;
+  }
+li:last-child{
+   border-right: none;
+}
+li a{
+     display: block;
+     padding: 10px 50px;
+     text-align: center;
+     color:#ff7f50;
+    }
+li a:hover:not(.active){
+    background-color:#FFFF00;
+}
+
+</style>
+<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+<body bgcolor="cornsilk">
+<br>
+<a href="index.html"><img src="68.png"  width="300" height="200" align="left"/></a>
+<img src= "78.png" width="240" height="200" align="right"/>
+<br>
+<h1><center><font face="WildWest" size="30" color="Red"><u>CONTACT US</u></font></center></h1>
+<p align="center">
+<span style="background-color:silver;height:20%;width:100%";>
+<br>
+<br>
+<br>
+<br>
+<br>
+<ul>
+  <li><a href="index.html"><font face="Cooper Std Black" size="3">HOME</a></li>
+  <li><a href="about.html"">ABOUT</a></li>
+  <li><a href="Services.html">SERVICES</a></li>
+  <li><a href="gallery.html">GALLERY</a></li>
+  <li><a href="sign.html">SIGN UP</a></li>
+  <li><a href="contactpage.html">CONTACT PAGE</a></li>
+  <li><a href="endpage.html">END PAGE</a></li></font>
+</ul>
+<br>
+<br>
+<fieldset>
+<legand><font face="georgia" color="purple"><b><u>CONTACT US</u></b><font></legand>
+<form action="/action_page.php" style="border:1px solid #ccc">
+<script>
+function myFunction(x)
+{
+x.style.background = "yellow";
+}
+</script>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="India">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</fieldset>
+<fieldset>
+<legand><u><b>ADDRESS</b></u></legand>
+ <address>
+Written by <a href="raviroushan4098@gmail.com">RAVI ROUSHAN,MAMTA RANA, AKSHAY</a>.<br>
+Visit us at:Lovely professional university BH-1<br>
+www.lpu.co.in<br>
+Phagwara,jalandhar, 144401<br>
+PUNJAB<br>
+contact no: 7091234058
+</address>
+</fieldset> 
+<footer><font face="Georgia" color =  "green">&copy; Copyright 2022<br>
+RAVI ROUSHAN<br>
+lovely professional university</footer>
+</font>
+<br>
+<form>
+<b><font face="georgia" color = "blue">YOUR EMAIL:<b></font> </b>
+<input type="box" value="your email" name="email id">
+<p>
+<a href="mailto:RAVI , UNOWM, UNKOWN?Subject=Hello%20again" target="_top">Send Mail</a>
+</p>
+</body>
+</html>
